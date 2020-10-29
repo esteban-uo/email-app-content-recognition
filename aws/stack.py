@@ -14,7 +14,7 @@ EMAILS_S3_BUCKET = os.environ.get(
     'EMAILS_S3_BUCKET', 'emails-bucket'
 )
 CONTENT_S3_BUCKET = os.environ.get(
-    'CONTENT_S3_BUCKET', 'content-recognition-2'
+    'CONTENT_S3_BUCKET', 'content-bucket'
 )
 
 class Stack(core.Stack):
