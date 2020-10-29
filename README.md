@@ -13,7 +13,7 @@ This AWS Serverless Application was originally created to automatically read N n
 virtualenv .env && source .env/bin/activate && \
     python -m pip install -r requirements.aws.txt && \
     python -m pip install -r requirements.app.development.txt && \
-    python -m pip install -r requirements.app.txt && \
+    python -m pip install -r requirements.app.txt
 ```
 
 ## Deploy
