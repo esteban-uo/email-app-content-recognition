@@ -7,7 +7,8 @@
 ```
 virtualenv .env && source .env/bin/activate && \
     python -m pip install -r requirements.aws.txt && \
-    python -m pip install -r requirements.app1.txt
+    python -m pip install -r requirements.app.development.txt && \
+    python -m pip install -r requirements.app.txt && \
 ```
 
 ## Deploy

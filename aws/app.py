@@ -10,6 +10,6 @@ ENV = dict(
 
 app = core.App()
 
-Stack(app, 'app', env=ENV)
+Stack(app, 'tsi-appcontentrecognition', env=ENV)
 
 app.synth()
